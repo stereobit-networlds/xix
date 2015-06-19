@@ -51,8 +51,8 @@ class apppanel  {
 		$this->infolder = paramload('ID','hostinpath'); //must be null	
 		$this->url = paramload('SHELL','urlbase'); //root domain name 
 
-		$this->cpanel_user = 'xixgr';//'stereobi';
-		$this->cpanel_pass = 'Do598rk7uE';//'Yi>~O,h/';		
+		$this->cpanel_user = '######'; //username
+		$this->cpanel_pass = '######'; //password		
 
 		$char_set  = arrayload('SHELL','char_set');	  
 		$charset  = paramload('SHELL','charset');	  		
