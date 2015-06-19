@@ -1021,7 +1021,7 @@ class apppanel  {
 		//$ht->addUser($this->posted_appname, $this->posted_password); //<< NOT THE APP NAME AS USERNAME..
 		$ht->addUser($this->posted_mail, $this->posted_password); //<<<< THE MAIL..
 		//2nd user
-		$ht->addUser('admin', 'vk7dp');
+		$ht->addUser('admin', '#####');
 		
 		// Changing password for User
 		//$ht->setPasswd("username","newPassword");
@@ -1334,7 +1334,7 @@ RewriteRule ^([^/]*)/$ /index.php?t=$1 [L]
 			$this->log .=  '<br>'.$insSQL.'<br>';
 			
 			//insert super admin user....for cp 9
-			$insSQL = "INSERT INTO users set code2='2',email='info@xix.gr',fname='xixadmin',notes='ACTIVE',seclevid=9,username='info@xix.gr', password='".md5('xixadminvk7dp')."',vpass='".md5('xixadminvk7dp')."'";
+			$insSQL = "INSERT INTO users set code2='2',email='info@xix.gr',fname='xixadmin',notes='ACTIVE',seclevid=9,username='info@xix.gr', password='".md5('############')."',vpass='".md5('############')."'";
 			$ret = $appdb->Execute($insSQL,1);	
 			$this->log .=  '<br>'.$insSQL.'<br>';	//silent ?		
 		    $this->log .=  $queries . ' executed of '.count($sql_parts).'.<br/>';
