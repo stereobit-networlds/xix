@@ -22,7 +22,10 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-@author Alexiou Vassilios b.alexiou@stereobit.gr
-@copyright 2009 stereobit.networlds
-@license BSD License http://www.stereobit.gr/licenses/2009/bsd-license.txt
-@version 1.0 
+Author: Alexiou Vassilios b.alexiou@stereobit.gr
+
+Copyright: 2014 stereobit.networlds
+
+License: BSD License http://www.stereobit.gr/licenses/2014/bsd-license.txt
+
+Version 1.0 
